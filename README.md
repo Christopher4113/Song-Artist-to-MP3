@@ -20,6 +20,7 @@ This application allows users to input a song title or artist into a text box an
     ```bash
     git clone https://github.com/Christopher4113/Song-Artist-to-MP3.git
     cd Song-Artist-to-MP3
+    or run the code on download.js
     ```
 
 2. **Install the required dependencies:**
@@ -76,8 +77,7 @@ youtube-mp3-downloader/
 │   │   └── styles.css
 ├── views/
 │   ├── index.ejs
-│   └── result.ejs
 ├── .env
-├── app.js
+├── download.js
 ├── package.json
 └── README.md
