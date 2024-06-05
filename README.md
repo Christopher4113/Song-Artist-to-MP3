@@ -13,8 +13,8 @@ Clone the repository:
 
 bash
 
-git clone https://github.com/yourusername/youtube-mp3-downloader.git
-cd youtube-mp3-downloader
+git clone https://github.com/Christopher4113/Song-Artist-to-MP3.git
+cd Song-Artist-to-MP3
 Install the required dependencies:
 
 bash
@@ -29,15 +29,10 @@ plaintext
 RAPIDAPI_KEY=your_rapidapi_key_here
 Usage
 Start the server:
-
-bash
-
 npm start
 Open your browser and navigate to:
+http://localhost:3000: search on your local browser
 
-arduino
-
-http://localhost:3000
 Input the song title or artist in the provided text box and submit the form.
 
 Wait for the conversion process to complete and download the MP3 file.
@@ -51,6 +46,7 @@ express: To set up the server and handle routing.
 node-fetch: To make API requests to RapidAPI.
 ejs: To render the frontend views.
 https: To handle secure HTTP requests.
+
 File Structure
 java
 
