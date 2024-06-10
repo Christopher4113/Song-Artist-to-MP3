@@ -65,7 +65,7 @@ app.post("/convert-mp3", (req, res) => {
         const searchKeyword = `${songName} ${artistName}`;
         searchSong(searchKeyword, async (error, videoId) => { //error block to check if there was an error
             if (error) {
-                return res.render("index", { success: false, message: error });
+                return res.render("index", { success: false, message: error }); //prints false message if there is an error
             }
 
             try {
